@@ -1,10 +1,10 @@
 # hv: agents from any workspace side by side, and mouse-only groups in the spaces sidebar.
 # Every command runs from the plugin root, so `hv` is called by its relative path.
 id = "hv"
-name = "hv"
-version = "0.3.0"
+name = "herdr-space-groups"
+version = "0.3.1"
 min_herdr_version = "0.9.0"
-description = "Agents from any workspace side by side; mouse-only groups in the sidebar"
+description = "Group spaces in the sidebar by drag and drop; click a group to see all its agents side by side"
 platforms = ["macos", "linux"]
 
 [[panes]]

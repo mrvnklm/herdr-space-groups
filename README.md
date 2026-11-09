@@ -1,6 +1,11 @@
-# hv — agents side by side, groups in the sidebar
+# herdr-space-groups
 
-A plugin for [herdr](https://herdr.dev). It does two things, both with the mouse:
+Group spaces in the herdr sidebar by drag and drop. Click a group and all its agents show up side
+by side.
+
+A plugin for the [herdr](https://herdr.dev) terminal UI (`herdr` 0.9). The herdr desktop app has
+its own extension system (mods) and does not load herdr plugins. The plugin and its command are
+called `hv` (herdr views). It does two things, both with the mouse:
 
 - **Views:** pick agent panes from any workspace and put them side by side in one place.
   Send them back later; every agent returns to the workspace it came from.
@@ -18,7 +23,7 @@ side. Demo projects and fake agents, rebuilt by `scripts/demo_screen.py`.*
 ## Install
 
 ```sh
-herdr plugin install mrvnklm/herdr-hv
+herdr plugin install mrvnklm/herdr-space-groups
 ```
 
 Requirements: herdr 0.9 or newer, Python 3.9 or newer, [fzf](https://github.com/junegunn/fzf)
